@@ -309,6 +309,7 @@ namespace OxyPlot.Wpf
             s.Stroke = this.Stroke.ToOxyColor();
             s.StrokeThickness = this.StrokeThickness;
             s.WhiskerWidth = this.WhiskerWidth;
+            s.BoxWidth = this.BoxWidth;
 
             if (this.ItemsSource == null)
             {
